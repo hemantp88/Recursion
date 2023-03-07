@@ -12,6 +12,10 @@ void subsequence(vector<int>v,int n,int i,vector<int>&ans )
             cout<<x<< " ";
             
         }
+        if(ans.size()==0)
+        {
+            cout<<" ";
+        }
         cout<<endl;
         return;
     }
